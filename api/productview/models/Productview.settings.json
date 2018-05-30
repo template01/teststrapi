@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "productview",
+  "info": {
+    "name": "productview",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "viewingid": {
+      "type": "string"
+    },
+    "viewing": {
+      "type": "boolean"
+    }
+  }
+}

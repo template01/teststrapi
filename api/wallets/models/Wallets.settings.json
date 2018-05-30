@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "wallets",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "productimage_a": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "Color: blue": {
+      "type": "boolean"
+    },
+    "Color: red": {
+      "type": "boolean"
+    },
+    "Color: yellow": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wallets",
+      "handler": "Wallets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wallets/:_id",
+      "handler": "Wallets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wallets",
+      "handler": "Wallets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wallets/:_id",
+      "handler": "Wallets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wallets/:_id",
+      "handler": "Wallets.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
